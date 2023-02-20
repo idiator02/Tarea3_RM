@@ -1,0 +1,65 @@
+body {
+    background-color: #F8F9FA;
+}
+
+#escudo{
+    height: 3em;
+    margin-right: 5em;
+    margin-left: 2em;
+}
+
+.banner_principal, .banner_home{
+    margin-top: 80px;
+    color: white;
+    text-align: center;
+    background-size: cover!important;
+    background-position: center!important;
+}
+
+.banner_home {
+    background-size: cover!important;
+    background-position: center!important;
+    color: black;
+}
+
+.banner_principal h1, .banner_home h1{
+    padding-top: 10%;
+    font-size: 3vw;
+    font-weight: 900;
+}
+
+.banner_home h1 {
+    padding-top: 35%;
+}
+
+.banner_principal p, .banner_home p{
+    font-size: 3vw;
+}
+
+.banner_principal h1{
+    font-size: 8vw;
+}
+
+.banner_home p {
+    background-color: white;
+    opacity: 0.8;
+}
+
+.ratio {
+    margin: 0 auto;
+}
+
+.formulario h1{
+    margin-top: 20%;
+}
+
+.novedadesTitulo, .calleTitulo {
+    text-align: center;
+    margin-top: 2em;
+}
+
+@media print {
+    iframe, .bloque1, nav {
+        display: none;
+    }
+}
