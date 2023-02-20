@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="img/escudo.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css" />
+    <title>RM-Equipaciones</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-light fixed-top">
+            <div class="container-fluid">
+                <a href="index.html"><img src="./img/escudo.png" id="escudo" alt="Escudo Real Madrid" /></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="equipaciones.html">Equipaciones</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Entrenamientos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Moda</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Ofertas
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Hombres</a></li>
+                                <li><a class="dropdown-item" href="#">Mujeres</a></li>
+                                <li><a class="dropdown-item" href="#">Niñ@s</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Todo</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+                        <button class="btn btn-outline-dark" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+        
+    <section class="formulario container">
+            <h1 class="text-center" >PÁGINA DE CONTACTO</h1>
+            <form role="form">
+                <div class="form-group">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" class="form-control" id="nombre">
+                    <label for="nombre">Apellidos:</label>
+                    <input type="text" class="form-control" id="apellidos">
+                </div>
+                <br><br>
+                <div class="motivo">
+                    <p>Motivo de la incidencia:</p>
+                    <select class="form-control">
+                        <option>Pulse para seleccionar una opción.</option>
+                        <option>Pedido</option>
+                        <option>Seguimiento</option>
+                        <option>Devoluciones</option>
+                        <option>Otros</option>
+                    </select>
+                  </div>
+                <br><br>
+                <div class="form-group">
+                  <label for="email">Email:</label>
+                  <input type="email" class="form-control" id="email">
+                </div>
+                <br><br>
+                <div>
+                    <label for="message">Mensaje:</label>
+                    <textarea class="form-control" id="message" name="message" ></textarea>
+                </div>
+                <br>
+                <button type="button" class="btn btn-dark">Enviar</button>
+              </form>
+        </section>
+        <br><hr class="container">
+        
+        <section class="alternativa-contacto container">
+            <h1 class="text-center">OTRAS ALTERNATIVAS DE CONTACTO</h1><br>
+            <p>Si no ha podido encontrar respuesta a su consulta, por favor contacta con nuestro servicio 
+                de Atención al Cliente de la Tienda Online del Real Madrid. Estamos disponibles en chat y email las <b>24h</b> del día.
+            </p><br>
+            <h6>Teléfonos de contacto:</h6>
+            <ul>
+                <li><b>Spain:</b> +34911674669</li>
+                <li><b>USA:</b> 1 (888) 803-4360</li>
+                <li><b>Canada:</b> 1 (778) 561 4363</li>
+                <li><b>Mexico:</b> +52 800 283 2787</li>
+                <li><b>Australia:</b> +61 1800 57 7282</li>
+                <li><b>New Zealand:</b> +64 800 49 3615</li>
+            </ul>
+        </section>
+        
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top container">
+            <p class="col-md-4 mb-0 text-muted">&copy; 2022 Company, Inc</p>
+            
+            <ul class="nav col-md-4 justify-content-end">
+                <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Home</a></li>
+                <li class="nav-item"><a href="equipaciones.html" class="nav-link px-2 text-muted">Equipaciones</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Entrenamientos</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Moda</a></li>
+                <li class="nav-item"><a href="contacto.html" class="nav-link px-2 text-muted">Contacto</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Ofertas</a></li>
+            </ul>
+        </footer>
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+                crossorigin="anonymous"></script>
+</body>
+
+</html>
